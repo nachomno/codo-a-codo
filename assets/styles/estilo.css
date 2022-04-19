@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+header{
+    width: 100%;
+    position:static;
+    background-color: rgb(73, 73, 73);
+}
+#cartel{
+    width: 12rem;
+    height: 5rem;
+    float: left;
+}
+#title{
+    float:left;
+    margin-top:4vh;
+    color:white;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+header nav{
+    margin-top:7vh;
+    
+    float: right;
+    margin-right: 15vh;
+}
+header nav a{
+    margin-right: 2vh;
+}
+header nav a:hover{color: rgb(223, 208, 0);}
+nav a:active{color: rgb(10, 173, 5);}
+.negro{
+    background-color: black;
+}
+#grande{
+    width: 100vw;
+    height: calc(150vh - 40vw);
+    filter:opacity(52%);
+    min-height: 20em;
+    
+}
+#sobreImagen{
+    position: absolute;
+    top:19vh;
+    width: 40vw;
+    margin-left: 40vw;
+    color:white;
+    text-align: right;
+    margin-top: 20vh;
+    
+}
+#sobreImagen p{
+    text-align: right;
+}
+#sobreImagen a{
+    padding:0.5em 1em;
+    float:right;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-radius: 0.4rem;
+}
+.botonVerde{
+    border:2px solid rgb(1, 161, 1);
+    background-color:rgb(1, 161, 1);
+}
+.boton{
+    border:2px solid rgb(255, 255, 255);
+}
+
+.blanco{
+    background-color:white;
+    margin-top: -0.2rem;
+    text-align: center;
+    margin-bottom: auto;
+    height: calc(30rem - 10vw);
+    width: 98vw;
+}
+.blancoTexto{
+    display: flex;
+    height: calc(100vh - 50vw);
+    margin-bottom: 5vh;
+}
+.blanco h2{
+    width: 100%;
+}
+.blanco img{
+    width:30vw;
+    height: 30vh;
+}
+.conocer{
+    color:white;
+    display: flex;
+    background-color: rgb(94, 94, 94);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.texto{
+    width: 44vw;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.texto *{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mediana{
+    width: 50%;
+    height: auto;
+}
+.conocer h3{
+    width:100vw;
+}
+.conocer a{
+    padding: 0.5rem;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 0.4rem;
+    
+}
+
+
+.datos{
+    width: 100vw;
+    margin-top: 0.5rem;
+    text-align: center;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.datos text{
+    width: 100vw;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.primero{
+    font-size: x-small;
+    flex: 1 1 auto;
+}
+.segundo{
+    font: 10rem;
+    flex: 1 1 auto;
+}
+.mismoRenglon{
+    display: flex;
+    flex-direction:row;
+}
+.nombre{
+    width: 25vw;
+    margin-right: 1rem;
+}
+
+.apellido{
+    width: 25vw;
+}
+.hablar{
+    height: 5rem;
+    margin-top: 1rem;
+    width: 52vw;
+    /* white-space: pre-line; */
+}
+.enviar{
+    background-color: green;
+    padding: 0.5rem 48vh;
+}
+
+
+.azul{
+    background-color: blue;
+    display: flex;
+    width: 98vw;
+    justify-content: space-around;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
