@@ -1,0 +1,102 @@
+{
+    "carta": [
+        {
+            "id": 1,
+            "nombre": "TORTILLA A LA ESPAÑOLA",
+            "descripcion": "Tortilla de papa",
+            "imagen": "./assets/images/tortillaPapa.jpg",
+            "precio": 1100
+        },
+        {
+            "id": 2,
+            "nombre": "RANAS A LA PROVENZAL",
+            "descripcion": "Ranas rebozadas acompañadas de papas doradas",
+            "imagen": "./assets/images/ranasProvenzal.jpg",
+            "precio": 3500
+        },
+        {
+            "id": 3,
+            "nombre": "LENTEJAS A LA ESPAÑOLA",
+            "descripcion": "Guiso de lentejas con chorizo colorado",
+            "imagen": "./assets/images/lentejasAlaEspañola.jpg",
+            "precio": 1300
+        },
+        {
+            "id": 4,
+            "nombre": "ARROZ CON MARISCOS",
+            "descripcion": "Frutos de mar con arroz amarillo",
+            "imagen": "./assets/images/arrozconMariscos.jpg",
+            "precio": 3500
+        },
+        {
+            "id": 5,
+            "nombre": "CABRITO MIRAMAR",
+            "descripcion": "Cabrito acompañado de papas bravas",
+            "imagen": "./assets/images/cabritoMiramar.jpg",
+            "precio": 2200
+        },
+        {
+            "id": 6,
+            "nombre": "OJO DE BIFE COMPLETO",
+            "descripcion": "Ojo de bife con panceta, acompañado de huevo y papas fritas",
+            "imagen": "./assets/images/ojoBifeCompleto.jpg",
+            "precio": 2700
+        },
+        {
+            "id": 6,
+            "nombre": "PULPO",
+            "descripcion": "Pulpo acompañado de papas al horno",
+            "imagen": "./assets/images/pulpo.jpg",
+            "precio": 2700
+        },
+        {
+            "id": 7,
+            "nombre": "CARACOLES",
+            "descripcion": "",
+            "imagen": "./assets/images/caracoles.jpg",
+            "precio": 1700
+        },
+        {
+            "id": 8,
+            "nombre": "EMPANADA GALLEGA",
+            "descripcion": "",
+            "imagen": "./assets/images/empanadaGallega.jpg",
+            "precio": 1200
+        },
+        {
+            "id": 9,
+            "nombre": "MONDONGO A LA ESPAÑOLA",
+            "descripcion": "",
+            "imagen": "./assets/images/mondongoEspañola.jpg",
+            "precio": 1300
+        },
+        {
+            "id": 10,
+            "nombre": "OSOBUCO",
+            "descripcion": "Osobuco acompañado con polenta",
+            "imagen": "./assets/images/osobucoPolenta.jpg",
+            "precio": 1700
+        },
+        {
+            "id": 11,
+            "nombre": "POLLO AL SPIEDO",
+            "descripcion": "Pollo al spiedo acompañado con papas fritas",
+            "imagen": "./assets/images/polloSpiedo.jpg",
+            "precio": 3500
+        },
+        {
+            "id": 12,
+            "nombre": "SARDINAS CON PAPAS",
+            "descripcion": "Sardinas con papas doradas",
+            "imagen": "./assets/images/sardinasPapas.jpg",
+            "precio": 2100
+        },
+        {
+            "id": 13,
+            "nombre": "SARDINAS DE VIGO ASADAS",
+            "descripcion": "Sardinas envueltas en panceta",
+            "imagen": "./assets/images/sardinasVigoAsadas.jpg",
+            "precio": 1900
+        }
+    ]
+}

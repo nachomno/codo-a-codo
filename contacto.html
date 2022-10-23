@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/09f0f12084.js" crossorigin="anonymous"></script>
+        <title>MIRAMAR</title>
+        <link rel="stylesheet" href="./assets/style.css"> 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="./assets/images/Logo.png" alt="logo">
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
+                    <li><a href="sugerencias.html">SUGERENCIAS</a></li>
+                    <li><a href="galeria.html">GALERÍA</a></li>
+                    <li><a class="activo" href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="">
+                <h2>Formulario de Contacto</h2>
+                <div id='resultadoValidacion'></div>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <input type="text" id='apellido' name="apellido" placeholder="Apellido">
+                <input type="email" id='email' name="email" placeholder="Email">
+                <input type="tel" name="telefono" placeholder="Teléfono">
+                <textarea name="mensaje" placeholder="Escriba su mensaje"></textarea>
+                <input value="Enviar" id="boton" onclick="validar()">
+            </form>
+            <h2>¿Dónde estamos?</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13133.077881085283!2d-58.393705!3d-34.62263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe1259fe1e5d7afdd!2sRotiser%C3%ADa%20Miramar!5e0!3m2!1ses!2sar!4v1665781454095!5m2!1ses!2sar" width="600px" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </main>
+        <footer>
+            <div class="info">
+                <div class="navegacion">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="quienessomos.html">Quienes Somos</a></li>
+                        <li><a href="sugerencias.html">Sugerencias</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="diasYhorarios">
+                    <h4>Horarios de atención</h4>
+                    <p>Lunes a Jueves de 8:00 a 01:00</p>
+                    <p>Viernes a Sábados de 8:00 a 02:00</p>
+                    <p>Domingos de 8:00 a 01:00</p>
+                </div>
+                <div class="redes">
+                    <h4>Contáctanos</h4>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/rotiseriamiramar/?hl=es" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/restaurante.miramar.ar/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=" target="_blank"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2022</p>
+        </footer>
+        
+        <script src="./js/contacto.js"></script>
+    </body>
+</html>
