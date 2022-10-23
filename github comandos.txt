@@ -1,0 +1,10 @@
+botón derecho git Bush here
+git branch   .... te muestra en qué rama estás
+git branch ramaNacho   ...para crear la rama
+git checkout ramaNacho   ...para loguearse en esa rama
+git add .       
+git commit		...estos tres para subir las cosas a github
+git push
+git checkout master   ...para ir a la rama master
+git merge ramaNacho    ...para unir la ramaNacho al master
+git branch -d ramaNacho ...para borrar la ramaNacho
